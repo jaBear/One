@@ -4,7 +4,9 @@ public class Main {
 
     public static void main(String [] args) throws IOException {
 
-        Student studentMax = Student() ;
+        Field FieldOne = new Field();
+            FieldOne.setFieldSize(3);
+            FieldOne.showField();
     }
 
 }
